@@ -1,5 +1,27 @@
 # React Native Boilerplate
 
+## TODO LIST
+
+- Setup ESLint and prettier
+  - https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb
+- Setup react navigation
+  - Initialiser 1 second then push to TabStack
+  - TabStack
+    - Home
+    - Tab1
+    - Tab2
+  - Drawer stack
+    - About
+    - Help
+- Setup detox with simple navigation tests
+- Setup react native config
+  - Production
+  - Demo
+  - Develop
+- Setup iOS certificates
+- Setup windows app center and codepush
+
+
 ## Environments
 
 To manage our environments we will use [React Native Config](https://github.com/luggit/react-native-config).
@@ -47,7 +69,11 @@ For navigation we will use [React Navigation](https://reactnavigation.org/).
 
 ## Testing
 
-To reduce the chance of bugs we will use [Detox](https://github.com/wix/Detox) for end-to-end testing and [Jest](https://jestjs.io/) for unit testing.
+To reduce the change of shipping bugs we will run unit unit, component and end-to-end tests:
+
+- [Jest](https://jestjs.io/) for unit tests.
+- Component testing using [react-test-renderer](https://reactjs.org/docs/test-renderer.html) and [Jest](https://jestjs.io/).
+- [Detox](https://github.com/wix/Detox) for end-to-end ui testing.
 
 ## Code Quality
 
