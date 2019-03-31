@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeBoilerplate",
+  "name": "react-native-boilerplate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -19,10 +19,16 @@
     "@types/react": "^16.8.10",
     "@types/react-native": "^0.57.42",
     "@types/react-test-renderer": "^16.8.1",
+    "@typescript-eslint/eslint-plugin": "^1.5.0",
+    "@typescript-eslint/parser": "^1.5.0",
     "babel-jest": "^24.5.0",
     "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
     "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.16.4",
     "react-test-renderer": "16.8.3",
     "typescript": "^3.4.1"
   },

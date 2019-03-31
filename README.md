@@ -2,8 +2,6 @@
 
 ## TODO LIST
 
-- Setup ESLint and prettier
-  - https://dev.to/robertcoopercode/using-eslint-and-prettier-in-a-typescript-project-53jb
 - Setup react navigation
   - Initialiser 1 second then push to TabStack
   - TabStack
