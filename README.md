@@ -3,14 +3,9 @@
 ## TODO LIST
 
 - Setup react navigation
-  - Initialiser 1 second then push to TabStack
-  - TabStack
-    - Home
-    - Tab1
-    - Tab2
-  - Drawer stack
+  - Drawer stack right header
     - About
-    - Help
+    - Terms and Conditions
 - Setup detox with simple navigation tests
 - Setup react native config
   - Production
