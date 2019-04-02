@@ -15,6 +15,7 @@ module.exports = {
   },
   rules: {
     indent: ["error", 2],
+    "react/display-name": false,
     "@typescript-eslint/no-empty-interface": false,
     "@typescript-eslint/explicit-member-accessibility": false,
     "@typescript-eslint/explicit-function-return-type": false
