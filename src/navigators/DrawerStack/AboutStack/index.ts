@@ -1,16 +1,15 @@
 import { createStackNavigator } from 'react-navigation'
 
-import { Home, Support } from '../../screens'
+import { About } from '../../../screens'
 
 export default createStackNavigator(
   {
-    Home,
-    Support,
+    About,
   },
   {
     defaultNavigationOptions: {
       headerStyle: {
-        backgroundColor: '#f4511e',
+        backgroundColor: '#ff87c3',
       },
       headerTintColor: '#fff',
       headerTitleStyle: {

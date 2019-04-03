@@ -1,6 +1,6 @@
 import { createStackNavigator } from 'react-navigation'
 
-import { Account, Settings } from '../../screens'
+import { Account, Settings } from '../../../../screens'
 
 export default createStackNavigator(
   {

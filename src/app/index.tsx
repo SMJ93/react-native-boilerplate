@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { createAppContainer } from 'react-navigation'
-import { Root } from '../navigators'
+import AppRoot from '../navigators'
 
-const RootContainer = createAppContainer(Root)
+const AppContainer = createAppContainer(AppRoot)
 
 export default class App extends Component {
   render() {
-    return <RootContainer />
+    return <AppContainer />
   }
 }

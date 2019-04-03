@@ -2,10 +2,6 @@
 
 ## TODO LIST
 
-- Setup react navigation
-  - Drawer stack right header
-    - About
-    - Terms and Conditions
 - Setup detox with simple navigation tests
 - Setup react native config
   - Production

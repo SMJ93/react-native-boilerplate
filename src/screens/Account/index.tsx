@@ -1,7 +1,7 @@
 import React from 'react'
-import { NavigationScreenProps } from 'react-navigation'
+import { NavigationScreenProps, NavigationParams } from 'react-navigation'
 
-import { Screen, Text } from '../../components'
+import { Screen, Text, HeaderDrawerButton } from '../../components'
 
 type Props = NavigationScreenProps<{}>
 
@@ -14,8 +14,9 @@ const AccountScreen = ({ navigation }: Props) => (
   </Screen>
 )
 
-AccountScreen.navigationOptions = {
+AccountScreen.navigationOptions = ({ navigation }: NavigationParams) => ({
   title: 'Account',
-}
+  headerRight: <HeaderDrawerButton navigation={navigation} />,
+})
 
 export default AccountScreen

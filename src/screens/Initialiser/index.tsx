@@ -7,7 +7,7 @@ type Props = NavigationScreenProps<{}>
 
 const InitialiserScreen = ({ navigation }: Props) => {
   useEffect(() => {
-    setTimeout(() => navigation.push('Tabs'), 750)
+    setTimeout(() => navigation.push('Drawer'), 750)
   }, [])
 
   return (

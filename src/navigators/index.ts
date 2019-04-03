@@ -1,2 +1,16 @@
-export { default as Root } from './Root'
-export { default as Tabs } from './Tabs'
+import { createStackNavigator } from 'react-navigation'
+
+import Drawer from './DrawerStack'
+import { Initialiser } from '../screens'
+
+export default createStackNavigator(
+  {
+    Initialiser,
+    Drawer,
+  },
+  {
+    defaultNavigationOptions: {
+      header: null,
+    },
+  }
+)
