@@ -54,7 +54,9 @@ As an alternative we could use [Fastlane](https://carloscuesta.me/blog/shipping-
 
 ## Navigation
 
-For navigation we will use [React Navigation](https://reactnavigation.org/).
+For navigation we will use [React Navigation](https://reactnavigation.org/) stacks, tabs, drawer and modal stacks:
+
+![navigation gif](docs/images/navigation.gif)
 
 ## Testing
 
