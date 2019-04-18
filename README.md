@@ -3,6 +3,8 @@
 ## TODO LIST
 
 - Setup detox with simple navigation tests
+- Setup component tests with test renderer
+- Setup tanslations
 - Setup react native config
   - Production
   - Demo
