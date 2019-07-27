@@ -1,17 +1,12 @@
 # React Native Boilerplate
 
-## TODO LIST
+## Running locally
 
-- Setup detox with simple navigation tests
-- Setup component tests with test renderer
-- Setup tanslations
-- Setup react native config
-  - Production
-  - Demo
-  - Develop
-- Setup iOS certificates
-- Setup windows app center and codepush
-
+1. Setup your local environment by following the React Native CLI getting started [guide](https://facebook.github.io/react-native/docs/getting-started.html)
+2. Clone the repo - `git clone git@github.com:SMJ93/react-native-boilerplate.git`
+3. Install dependencies - `yarn` or `npm install`
+4. Run the Metro Bundler - `yarn start` or `npm start`
+5. Run iOS or Android - `react-native run-ios` or `react-native run-android`
 
 ## Environments
 
@@ -79,3 +74,15 @@ To enforce a consistent code format we will use [Prettier](https://prettier.io/)
 ## Managing iOS Certificates
 
 [Fastlane Match](https://docs.fastlane.tools/actions/match/) allows us to easily sync developer certificates and profiles across the team.
+
+## TODO LIST
+
+- Setup detox with simple navigation tests
+- Setup component tests with test renderer
+- Setup tanslations
+- Setup react native config
+  - Production
+  - Demo
+  - Develop
+- Setup iOS certificates
+- Setup windows app center and codepush
